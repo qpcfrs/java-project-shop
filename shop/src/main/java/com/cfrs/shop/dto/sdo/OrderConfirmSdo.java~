@@ -1,0 +1,4 @@
+package com.cfrs.shop.dto.sdo;
+
+public class OrderConfirmSdo {
+}
