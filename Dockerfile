@@ -21,7 +21,7 @@ FROM eclipse-temurin:24-jdk
 WORKDIR /app
 
 # Copy file .jar từ stage build sang
-COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/target/*.jar shop-app.jar
 
 # Cổng mặc định Spring Boot
 EXPOSE 8080
