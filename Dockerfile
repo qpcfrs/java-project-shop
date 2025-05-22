@@ -7,6 +7,9 @@ WORKDIR /app
 # Copy toàn bộ mã nguồn
 COPY . .
 
+# 👇 Thêm dòng này để cấp quyền thực thi cho mvnw
+RUN chmod +x mvnw
+
 # Build project bằng Maven Wrapper (không cần cài Maven ngoài)
 RUN ./mvnw clean package -DskipTests
 
