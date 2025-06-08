@@ -25,7 +25,7 @@ spring:
   application:
     name: shop
   datasource:
-    url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12782258?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12783666?useSSL=false&serverTimezone=UTC
     username: sql12783666
     password: G7iT52hT5q
     hikari:
