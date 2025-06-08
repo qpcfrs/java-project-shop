@@ -26,8 +26,8 @@ spring:
     name: shop
   datasource:
     url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12782258?useSSL=false&serverTimezone=UTC
-    username: sql12782258
-    password: emZzSbRJyD
+    username: sql12783666
+    password: G7iT52hT5q
     hikari:
       maximum-pool-size: 20
       minimum-idle: 2
